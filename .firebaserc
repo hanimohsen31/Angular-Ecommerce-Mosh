@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "angular-mosh-ecommerce": {
+      "hosting": {
+        "angular-mosh-ecommerce": [
+          "angular-mosh-ecommerce"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "angular-mosh-ecommerce"
+  }
+}

@@ -1,0 +1,21 @@
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  .overlay {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color: black;
+    opacity: 0.4;
+  }
+  img,
+  video {
+    width: 100%;
+    height: calc(100vh - 60px);
+    object-fit: cover;
+    margin: 0;
+    padding: 0;
+  }
+}
